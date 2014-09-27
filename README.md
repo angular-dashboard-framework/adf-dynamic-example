@@ -11,4 +11,4 @@ bower install
 node server.js
 ```
 
-Open your browser on http://localhost:3000/
+Open your browser on [http://localhost:3000/](http://localhost:3000/)
