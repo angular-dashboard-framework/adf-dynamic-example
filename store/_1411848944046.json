@@ -1,0 +1,32 @@
+{
+  "title": "Dashboard",
+  "structure": "4-8",
+  "rows": [
+    {
+      "columns": [
+        {
+          "styleClass": "col-md-4",
+          "widgets": [
+            {
+              "type": "weather",
+              "config": {
+                "location": "Hildesheim"
+              },
+              "title": "Weather"
+            }
+          ]
+        },
+        {
+          "styleClass": "col-md-8",
+          "widgets": [
+            {
+              "type": "randommsg",
+              "config": {},
+              "title": "Random Message"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

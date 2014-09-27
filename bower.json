@@ -1,0 +1,11 @@
+{
+  "name": "adf-dynamic-example",
+  "dependencies": {
+    "angular": "1.2.25",
+    "angular-route": "1.2.25",
+    "angular-dashboard-framework": "0.3.0"
+  },
+  "resolutions": {
+    "angular": "1.2.25"
+  }
+}
