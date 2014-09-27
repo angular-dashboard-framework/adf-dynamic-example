@@ -38,14 +38,17 @@ app.get('/v1/store/:id', function(req, res){
 app.post('/v1/store/:id', function(req, res){
   fs.writeFile(
     storeDir + req.params.id + '.json',
-    JSON.stringify(req.body, undefined, 2)
+    JSON.stringify(req.body, undefined, 2),
+    function(){
+      res.status(204).end();
+    }
   );
-  res.status(204).end();
 });
 
 app.delete('/v1/store/:id', function(req, res){
-  fs.unlinkSync(storeDir + req.params.id + '.json');
-  res.status(204).end();
+  fs.unlink(storeDir + req.params.id + '.json', function(){
+    res.status(204).end();
+  });
 });
 
 var server = app.listen(3000, function() {
