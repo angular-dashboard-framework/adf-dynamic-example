@@ -10,6 +10,13 @@
             {
               "type": "weather",
               "config": {
+                "location": "New York"
+              },
+              "title": "Weather"
+            },
+            {
+              "type": "weather",
+              "config": {
                 "location": "Hildesheim"
               },
               "title": "Weather"
