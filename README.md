@@ -1,7 +1,7 @@
 adf-dynamic-example
 ===================
 
-Dynamic example of the angular-dashboard-framework.
+Dynamic example of the [angular-dashboard-framework](https://github.com/sdorra/angular-dashboard-framework).
 
 ## Getting started
 
