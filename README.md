@@ -6,7 +6,7 @@ Dynamic example of the [angular-dashboard-framework](https://github.com/sdorra/a
 ## Getting started
 
 ```bash
-npm install --save
+npm install
 bower install
 node server.js
 ```
