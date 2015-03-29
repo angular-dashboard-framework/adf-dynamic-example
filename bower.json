@@ -8,7 +8,16 @@
     "bootstrap": "3.3.4",
     "angular-bootstrap": "0.12.0",
     "angular-ui-sortable": "0.13.0",
-    "angular-dashboard-framework": "0.7.0"
+    "angular-dashboard-framework": "0.7.0",
+    "adf-widget-clock": "~0.1.0",
+    "adf-widget-github": "~0.1.1",
+    "adf-widget-iframe": "~0.1.0",
+    "adf-widget-weather": "~0.1.0",
+    "adf-widget-markdown": "~0.1.0",
+    "adf-widget-randommsg": "~0.1.0",
+    "adf-widget-linklist": "~0.1.0",
+    "adf-widget-news": "~0.1.0",
+    "adf-widget-version": "~0.1.0"
   },
   "resolutions": {
     "angular": "1.3.15",
