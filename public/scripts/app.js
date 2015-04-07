@@ -25,7 +25,7 @@
 'use strict';
 
 angular.module('adfDynamicSample', [
-    'adf', 'ngRoute', 'structures',
+    'adf', 'ngRoute', 'adf.structures.base',
     'adf.widget.clock', 'adf.widget.github', 'adf.widget.iframe',
     'adf.widget.linklist', 'adf.widget.markdown', 'adf.widget.news',
     'adf.widget.randommsg', 'adf.widget.version', 'adf.widget.weather'

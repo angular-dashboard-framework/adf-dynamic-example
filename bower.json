@@ -9,6 +9,7 @@
     "angular-bootstrap": "0.12.0",
     "angular-ui-sortable": "0.13.0",
     "angular-dashboard-framework": "0.7.0",
+    "adf-structures-base": "^0.1.0",
     "adf-widget-clock": "~0.1.0",
     "adf-widget-github": "~0.1.1",
     "adf-widget-iframe": "~0.1.0",
