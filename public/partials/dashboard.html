@@ -1,5 +1,8 @@
 <div>
   <adf-dashboard name="{{dashboard.name}}" structure="4-8" adf-model="dashboard.model" />
 </div>
-
-<button class="btn btn-warning" ng-click="dashboard.delete(dashboard.name)">Delete</button>
+<div class="footer">
+  <button class="btn btn-warning" ng-click="dashboard.delete(dashboard.name)">
+    <span class="glyphicon glyphicon-remove"></span> Delete
+  </button>
+</div>

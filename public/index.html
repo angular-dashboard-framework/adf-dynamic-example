@@ -34,17 +34,13 @@
 
     <!-- build:css css/sample.min.css -->
     <!-- Bootstrap core CSS -->
-    <link href="components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--link href="components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"-->
 
     <!-- dashboard style -->
     <link href="components/angular-dashboard-framework/dist/angular-dashboard-framework.min.css" rel="stylesheet">
     <link href="components/adf-widget-clock/dist/adf-widget-clock.min.css" rel="stylesheet">
     <link href="components/adf-widget-iframe/dist/adf-widget-iframe.min.css" rel="stylesheet">
-    <style>
-    body {
-      padding-top: 60px;
-    }
-    </style>
+    <link href="styles/app.css" rel="stylesheet">
     <!-- endbuild -->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -75,7 +71,7 @@
           </button>
           <a class="navbar-brand" href="#">ADF Dynamic Sample</a>
         </div>
-        <div collapse="nav.navCollapsed" class="collapse navbar-collapse">
+        <div uib-collapse="nav.navCollapsed" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li ng-class="nav.navClass('boards/' + item.id)" ng-repeat="item in nav.items | orderBy: title">
               <a ng-href="#/boards/{{item.id}}">{{item.title}}</a>

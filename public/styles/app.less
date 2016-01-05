@@ -1,0 +1,33 @@
+// out: app.css, sourcemap: true, compress: true
+
+@import "../components/bootstrap/less/bootstrap.less";
+
+@body-bg: lighten(@gray-base, 95.0%);;
+@icon-font-path: "../components/bootstrap/fonts/";
+@grid-gutter-width: 10px;
+
+@panel-footer-padding:        0;
+@panel-border-radius:         0;
+@panel-inner-border:          inherit;
+@panel-footer-bg:             inherit;
+
+@panel-default-text:          @gray-dark;
+@panel-default-border:        #ddd;
+@panel-default-heading-bg:    inherit;
+
+body {
+  padding-top: 60px;
+}
+
+.panel {
+  margin-bottom: @grid-gutter-width;
+  .box-shadow(2px 2px 1px rgba(0,0,0,.08));
+}
+
+.panel-heading {
+  border-bottom: none;
+}
+
+.edit .column {
+  padding: @grid-gutter-width / 2;
+}
